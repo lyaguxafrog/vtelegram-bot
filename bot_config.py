@@ -1,5 +1,6 @@
 import os
 import configparser
+import sys
 
 config_path = os.path.join(sys.path[0], 'settings.ini')
 config = configparser.ConfigParser()
