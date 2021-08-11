@@ -6,3 +6,4 @@ import configparser
 import logging
 from telebot.types import InputMediaPhoto
 
+import bot_config
