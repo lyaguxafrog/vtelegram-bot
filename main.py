@@ -7,3 +7,7 @@ import logging
 from telebot.types import InputMediaPhoto
 
 import bot_config
+
+bot = telebot.TeleBot(bot_config.BOT_TOKEN) # Initializing the telegram bot
+
+
